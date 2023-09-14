@@ -1,0 +1,11 @@
+.bg-secondary {
+  background-color: #ff8a96 !important;
+}
+
+ion-card {
+  margin-top: -73px !important;
+  border-radius: 40px 0px 0px 0px;
+  -webkit-box-shadow: 0px 8px 20px #fbf5f5;
+          box-shadow: 0px 8px 20px #fbf5f5;
+}
+/*# sourceMappingURL=service-term.page.css.map */

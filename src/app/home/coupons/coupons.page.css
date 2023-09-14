@@ -1,0 +1,71 @@
+ion-content {
+  --background: #FBFBFB;
+}
+
+h4, h5 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  color: #000;
+}
+
+.bg-light {
+  background-color: #EFF2F7 !important;
+}
+
+ion-button {
+  font-size: 14px;
+  height: 42px;
+  line-height: 27px;
+  font-weight: 500;
+  --background: #178EFC;
+  border-radius: 32px;
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+}
+
+@media (max-width: 320px) {
+  ion-button {
+    font-size: 14px;
+    height: 40px;
+  }
+}
+
+ion-segment {
+  height: 50px;
+  background: transparent;
+  border-radius: 0px;
+}
+
+ion-segment ion-segment-button {
+  font-size: 16px;
+  --indicator-box-shadow: none;
+  --border-width: 0;
+  --color: #AEB0B2;
+  --border-radius: 0px;
+  --background-checked: transparent;
+  --color-checked: #000;
+  --indicator-color: #fff !important;
+  text-transform: capitalize;
+}
+
+.coupon-container {
+  border-radius: 10px !important;
+}
+
+ion-card {
+  border-radius: 20px;
+}
+
+.mahavir {
+  max-width: 50px;
+}
+
+.logo {
+  max-width: 100px;
+}
+/*# sourceMappingURL=coupons.page.css.map */

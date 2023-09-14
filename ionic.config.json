@@ -1,0 +1,7 @@
+{
+  "name": "mewaad_diaries",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

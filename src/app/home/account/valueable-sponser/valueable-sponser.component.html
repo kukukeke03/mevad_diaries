@@ -1,0 +1,223 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+
+    <ion-grid class="p-0 mt-0 mb-5">
+      <ion-row class="mt-4 pb-3 align-items-center px-2">
+        <ion-col size="1">
+             <svg (click)="go_to_url('./account')" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+              </svg>
+        </ion-col>
+        <ion-col size="11" class="pl-2">
+         <IonItem class="search-wraper positionrelative">
+           <ion-input type="text" value="" placeholder="Search"></ion-input>
+           <ion-icon name="search-outline"></ion-icon>
+         </IonItem>
+        </ion-col>
+      </ion-row>
+
+      <ion-card class="my-0 pb-0 mt-1 shadow-none">
+   
+        <ion-row class="px-3 mx-3 mt-3 py-2 bg-1 mb-3 border-radius align-items-center"  [routerLink]="['sponsers']">
+          <ion-col col="8" class="">
+              <h3 class="mt-4">VALUABLE 
+                SPONSORS</h3>
+          </ion-col>
+          <ion-col col="4" class="ion-text-right">
+            <svg width="44" height="35" viewBox="0 0 44 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M43 22.383C42.658 23.4527 41.9293 24.1797 41.0278 24.8111C36.5862 27.9262 31.9495 30.7004 27.0468 33.0189C26.3457 33.3493 25.6774 33.7511 24.9711 34.0694C21.9352 35.4417 18.9269 35.2539 15.9877 33.7859C13.9568 32.7702 11.9743 31.6535 9.95387 30.6134C9.52905 30.396 9.39262 30.1386 9.39435 29.6707C9.41162 25.6703 9.41507 21.6699 9.39262 17.6713C9.38917 17.0816 9.59294 16.9425 10.1386 16.9529C11.7792 16.9842 13.4198 16.9477 15.0603 16.9703C16.2916 16.9877 17.4141 17.4608 18.5228 17.9374C19.9268 18.5392 21.2547 19.2905 22.543 20.1115C22.8988 20.3376 23.2545 20.4402 23.6741 20.4333C24.9693 20.4141 26.2645 20.4298 27.5597 20.4263C28.1848 20.4246 28.753 20.5881 29.2365 20.9985C30.0257 21.6664 30.1362 22.6631 29.4696 23.4597C28.6684 24.418 27.5821 24.8268 26.3819 25.0094C25.2888 25.1764 24.2026 25.0929 23.1112 25.0146C22.1994 24.9502 21.6675 25.3329 21.6554 25.9851C21.6433 26.6217 22.1942 27.1139 23.0732 27.0235C24.6119 26.8652 26.1799 27.0374 27.6944 26.5678C29.3833 26.0425 30.6785 25.0963 31.295 23.371C31.5005 22.7952 31.8493 22.4335 32.4175 22.1674C34.2376 21.3134 36.025 20.3898 37.8279 19.494C40.1886 18.3218 41.7929 18.8401 43.0017 21.1655C43 21.5708 43 21.976 43 22.383Z" fill="#F18D89"/>
+              <path d="M0 15.5999C2.27261 15.6068 4.54349 15.6346 6.8161 15.6085C7.40843 15.6016 7.59839 15.7529 7.59494 16.3756C7.56904 21.2126 7.5794 26.0513 7.58458 30.8901C7.58458 31.3214 7.61739 31.6606 6.98707 31.6484C4.6592 31.6032 2.3296 31.6136 0 31.6032C0 26.267 0 20.9326 0 15.5999Z" fill="#F18D89"/>
+              <path d="M19.1032 9.08956e-06C16.3005 -0.00520882 14.0451 2.23675 14.0313 5.03877C14.0192 7.84253 16.2659 10.1245 19.0531 10.1367C21.8922 10.1488 24.1941 7.86166 24.1752 5.04399C24.1579 2.24371 21.906 0.0034877 19.1032 9.08956e-06ZM20.9752 2.562C20.9752 2.58287 20.9648 2.59331 20.9441 2.59331H19.5591V2.62462C19.756 2.73245 19.9097 2.95161 20.0185 3.28381L20.034 3.39687H20.9441C20.9648 3.40035 20.9752 3.41078 20.9752 3.42818V3.78125C20.9752 3.80213 20.9648 3.81256 20.9441 3.81256H20.0686C20.0686 4.20738 19.8285 4.59003 19.3484 4.96398C18.9236 5.20922 18.6214 5.33271 18.4418 5.33271C18.4418 5.34315 18.4315 5.34837 18.4107 5.34837L20.388 7.92601V7.95732H19.6368C19.6282 7.95732 18.8649 6.95896 17.3452 4.96398V4.94833H17.5835C18.4228 4.94833 18.9271 4.64395 19.0963 4.03519C19.1067 3.96214 19.1119 3.90301 19.1119 3.85952V3.81256H17.2641C17.2433 3.81256 17.233 3.80213 17.233 3.78125V3.42818C17.2364 3.4073 17.2468 3.39687 17.2641 3.39687H19.0963C19.0341 3.16032 18.9012 2.96552 18.6991 2.81768C18.4194 2.6681 18.1638 2.59331 17.9324 2.59331H17.2641C17.2433 2.59331 17.233 2.58287 17.233 2.562V2.21066C17.2364 2.18979 17.2468 2.17936 17.2641 2.17936H20.9441C20.9648 2.1811 20.9752 2.19153 20.9752 2.21066V2.562Z" fill="#FFB74D"/>
+              <path d="M30.4349 8.6233C28.2261 8.61982 26.4474 10.3869 26.4371 12.5941C26.4267 14.8048 28.1985 16.6032 30.3951 16.6119C32.6332 16.6224 34.4465 14.8187 34.4326 12.5976C34.4188 10.3904 32.6436 8.62504 30.4349 8.6233ZM31.9096 10.6426C31.9096 10.6583 31.901 10.667 31.8855 10.667H30.794V10.6913C30.9495 10.7766 31.0704 10.9487 31.1567 11.2114L31.1688 11.3001H31.8855C31.901 11.3036 31.9096 11.3105 31.9096 11.3244V11.6027C31.9096 11.6184 31.901 11.6271 31.8855 11.6271H31.1947C31.1947 11.9384 31.0047 12.2393 30.6265 12.535C30.2915 12.7281 30.0532 12.8255 29.9116 12.8255C29.9116 12.8341 29.903 12.8376 29.8874 12.8376L31.4451 14.8691V14.8935H30.8528C30.8459 14.8935 30.2449 14.1073 29.0464 12.535V12.5228H29.2346C29.8961 12.5228 30.2932 12.2828 30.4262 11.8027C30.4349 11.7453 30.4383 11.6984 30.4383 11.6636V11.6271H28.9825C28.967 11.6271 28.9583 11.6184 28.9583 11.6027V11.3244C28.9618 11.3088 28.9687 11.3001 28.9825 11.3001H30.4262C30.3779 11.114 30.2725 10.9609 30.1136 10.8444C29.8926 10.7261 29.6923 10.667 29.5092 10.667H28.9825C28.967 10.667 28.9583 10.6583 28.9583 10.6426V10.3661C28.9618 10.3504 28.9687 10.3417 28.9825 10.3417H31.8837C31.8993 10.3435 31.9079 10.3522 31.9079 10.3661V10.6426H31.9096Z" fill="#FFB74D"/>
+              </svg>
+              
+          </ion-col>
+        </ion-row>
+         <!-- <ion-row>
+          <ion-col size="1">
+               
+          </ion-col>
+           <ion-col size="5">
+               
+           </ion-col>
+           <ion-col size="3">
+            <ion-text>Expense</ion-text>
+          </ion-col>
+          <ion-col size="3" class="text-right">
+            <ion-text>Income</ion-text>
+          </ion-col>
+         </ion-row> -->
+         <ion-row>
+           <ion-col size="12" class="px-3">
+                <ion-row class="bg-light py-2 align-items-center">
+                  <ion-col size="2">
+                    <img class="m-auto d-block" src="../../../../assets/new/flip.png" alt="">
+                  </ion-col>
+                    <ion-col size="6">
+                      <span class="font-weight-bold h6">Flipkart</span>
+                    </ion-col>
+                    <!-- <ion-col size="3">
+                    <span class="font-weight-bold font-12">Rs.15 lkh</span>
+                    </ion-col> -->
+                    <ion-col size="4" class="text-right">
+                      <span class="font-weight-bold font-12">Rs.20 lkh</span>
+                    </ion-col>
+                </ion-row>
+
+                <ion-row class="bg-white py-2 align-items-center">
+                  <ion-col size="2">
+                    <img class="m-auto d-block" src="../../../../assets/new/ola.png" alt="">
+                  </ion-col>
+                  <ion-col size="6">
+                   
+                    <span class="font-weight-bold h6">Ola</span>
+                  </ion-col>
+                  <!-- <ion-col size="3">
+                  <span class="font-weight-bold font-12">Rs.25 lkh</span>
+                  </ion-col> -->
+                  <ion-col size="4" class="text-right">
+                    <span class="font-weight-bold font-12">Rs.35 lkh</span>
+                  </ion-col>
+              </ion-row>
+
+              <ion-row class="bg-light py-2 align-items-center">
+                <ion-col size="2">
+                  <img class="m-auto d-block" src="../../../../assets/new/urban.png" alt="">
+
+                </ion-col>
+                <ion-col size="6">
+                  <span class="font-weight-bold h6">Flipkart</span>
+                </ion-col>
+                <!-- <ion-col size="3">
+                <span class="font-weight-bold font-12">Rs30 lkh</span>
+                </ion-col> -->
+                <ion-col size="4" class="text-right">
+                  <span class="font-weight-bold font-12">Rs45 lkh</span>
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="bg-white py-2 align-items-center">
+              <ion-col size="2">
+                <img class="m-auto d-block" src="../../../../assets/new/mytrip.png" alt="">
+              </ion-col>
+              <ion-col size="6">
+               
+                <span class="font-weight-bold h6">Make my Trip</span>
+              </ion-col>
+              <!-- <ion-col size="3">
+              <span class="font-weight-bold font-12">Rs.15 lkh</span>
+              </ion-col> -->
+              <ion-col size="4" class="text-right">
+                <span class="font-weight-bold font-12">Rs.20 lkh</span>
+              </ion-col>
+          </ion-row>
+
+          <ion-row class="bg-light py-2 align-items-center">
+            <ion-col size="2">
+              <img class="m-auto d-block" src="../../../../assets/new/tata.png" alt="">
+
+            </ion-col>
+            <ion-col size="6">
+              <span class="font-weight-bold h6">Tata</span>
+            </ion-col>
+            <!-- <ion-col size="3">
+            <span class="font-weight-bold font-12">Rs.45 lkh</span>
+            </ion-col> -->
+            <ion-col size="4" class="text-right">
+              <span class="font-weight-bold font-12">Rs.65 lkh</span>
+            </ion-col>
+        </ion-row>
+
+        <ion-row class="bg-white py-2 align-items-center">
+          <ion-col size="2">
+            <img class="m-auto d-block" src="../../../../assets/new/kotak.png" alt="">
+          </ion-col>
+          <ion-col size="6">
+           
+            <span class="font-weight-bold h6">Kotak</span>
+          </ion-col>
+          <!-- <ion-col size="3">
+          <span class="font-weight-bold font-12">Rs.75 lkh</span>
+          </ion-col> -->
+          <ion-col size="4" class="text-right">
+            <span class="font-weight-bold font-12">Rs.95 lkh</span>
+          </ion-col>
+      </ion-row>
+
+      <ion-row class="bg-light py-2 align-items-center">
+        <ion-col size="2">
+          <img class="m-auto d-block" src="../../../../assets/new/mahin.png" alt="">
+        </ion-col>
+        <ion-col size="6">
+         
+          <span class="font-weight-bold h6">Mahindra</span>
+        </ion-col>
+        <!-- <ion-col size="3">
+        <span class="font-weight-bold font-12">Rs.95 lkh</span>
+        </ion-col> -->
+        <ion-col size="4" class="text-right">
+          <span class="font-weight-bold font-12">Rs.98 lkh</span>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="bg-white py-2 align-items-center">
+        <ion-col size="2">
+          <img class="m-auto d-block" src="../../../../assets/new/god.png" alt="">
+        </ion-col>
+        <ion-col size="6">
+         
+          <span class="font-weight-bold h6">Goderej</span>
+        </ion-col>
+        <!-- <ion-col size="3">
+        <span class="font-weight-bold font-12">Rs.3 Cr</span>
+        </ion-col> -->
+        <ion-col size="4" class="text-right">
+          <span class="font-weight-bold font-12">Rs.6 Cr</span>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="bg-light py-2 align-items-center">
+        <ion-col size="2">
+          <img class="m-auto d-block" src="../../../../assets/new/bajaj.png" alt="">
+        </ion-col>
+        <ion-col size="6">
+         
+          <span class="font-weight-bold h6">Bajaj</span>
+        </ion-col>
+        <!-- <ion-col size="3">
+        <span class="font-weight-bold font-12">Rs.1 lkh</span>
+        </ion-col> -->
+        <ion-col size="4" class="text-right">
+          <span class="font-weight-bold font-12">Rs.7lkh</span>
+        </ion-col>
+      </ion-row>
+      <ion-row class="bg-white py-2 align-items-center">
+        <ion-col size="2">
+          <img class="m-auto d-block" src="../../../../assets/new/airtal.png" alt="">
+        </ion-col>
+        <ion-col size="6">
+         
+          <span class="font-weight-bold h6">Airtel</span>
+        </ion-col>
+        <!-- <ion-col size="3">
+        <span class="font-weight-bold font-12">Rs.2 Cr</span>
+        </ion-col> -->
+        <ion-col size="4" class="text-right">
+          <span class="font-weight-bold font-12">Rs.3 Cr</span>
+        </ion-col>
+      </ion-row>
+
+           </ion-col>
+        </ion-row>
+      </ion-card>
+      
+    </ion-grid>
+  <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+</ion-content>

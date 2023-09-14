@@ -1,0 +1,51 @@
+ion-content{
+  --background: #ededed;
+}
+
+.main-card{
+  background: #F52D54
+}
+// .monthview-selected{
+//   --background-color: #F52D54 !important;
+//   color: white;
+// }
+.calender .monthview-selected {
+  background-color:#F52D54!important;
+  color:#fff !important;
+  font-weight:bold !important;
+}
+.swiper-slide{
+  font-size: 14px;
+}
+.card-text{
+  background: #EFF2F7;
+  border-radius: 20px;
+}
+.border-left-1{
+  border-left: 5px solid #BCE4F2;
+}
+.border-left-2{
+  border-left: 5px solid #91A8DB;
+}
+.border-left-3{
+  border-left: 5px solid #775DC1;
+}
+
+.bg{
+  background: #EFECFF;
+}
+h5{
+  font-size: 14px;
+  color:#28BEF3;
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+  color:#28BEF3;
+}
+.mahavir{
+  max-width: 50px;
+}
+.logo{
+  max-width: 100px;
+}

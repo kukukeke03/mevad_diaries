@@ -1,0 +1,89 @@
+ion-content {
+  --background: #FBFBFB;
+}
+
+.category {
+  overflow-x: scroll;
+}
+
+.category .category-item {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F52D54), to(#B70B34));
+  background: linear-gradient(180deg, #F52D54 0%, #B70B34 100%);
+  border-radius: 33.5px;
+  width: 68px;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.category span {
+  font-size: 10px;
+  color: #000000;
+}
+
+h2 {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+  font-size: 12px;
+  position: relative;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  background: #646464;
+  width: 7px;
+  height: 3px;
+  left: -18px;
+  top: 8px;
+}
+
+.diractoy span {
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+}
+
+.diractoy .circle {
+  width: 42px;
+  height: 33px;
+  border: 1px solid #E0DFDF;
+}
+
+.story h3 {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #C41A43;
+  font-weight: bold;
+}
+
+.story p {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.mahavir {
+  max-width: 50px;
+}
+
+ion-card {
+  min-height: 114px;
+}
+/*# sourceMappingURL=home.page.css.map */

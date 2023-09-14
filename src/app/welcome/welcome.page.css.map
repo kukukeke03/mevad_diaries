@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,WAAW,CAAA;EACP,UAAU,EAAE,iCAAiC,CAAC,SAAS,CAAC,MAAM,CAAC,YAAY;EAC3E,MAAM,EAAE,IAAI;CAMf;;AARD,AAGI,WAHO,CAGP,EAAE,CAAA;EACE,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;CAC5B;;AAGL,AAAA,OAAO,CAAA;EACH,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "welcome.page.scss"
+    ],
+    "names": [],
+    "file": "welcome.page.css"
+}

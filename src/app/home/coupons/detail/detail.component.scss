@@ -1,0 +1,41 @@
+
+ion-content {
+  --background: #ededed;
+  }
+ion-button{
+    font-size: 14px;
+    height: 42px;
+    line-height: 27px;
+    font-weight: 500;
+    --background: #178EFC;
+    border-radius: 32px;
+    color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+    @media(max-width: 320px){
+        font-size: 14px;
+        height: 40px;
+    }
+  }
+  h4{
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #000000;
+  }
+  h5{
+    font-size: 16px;
+    color: #000000;
+  }
+  p{
+    font-size: 12px;  
+    color: #000000;
+  }
+  .bg-light{
+    background-color: #EFF2F7 !important;
+  }
+
+  .mahavir{
+    max-width: 50px;
+  }
+  .logo{
+    max-width: 100px;
+  }

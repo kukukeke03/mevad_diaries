@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,kBAAkB;CACvC;;AACD,AAAA,QAAQ,CAAA;EACJ,UAAU,EAAE,gBAAgB;EAC5B,aAAa,EAAE,gBAAgB;EAC/B,UAAU,EAAE,oBAAoB;CACnC",
+    "sources": [
+        "data-policy.page.scss"
+    ],
+    "names": [],
+    "file": "data-policy.page.css"
+}

@@ -1,0 +1,13 @@
+{
+  "appId": "com.thinkatronics.mewaad",
+  "appName": "mewaad_diaries",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -1,0 +1,208 @@
+
+ <ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+ <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+<ion-grid>
+  <ion-row class="mt-4 pb-2 align-items-center px-2">
+    <ion-col size="1">
+         <svg [routerLink]="['/tabs/home']" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+          </svg>
+    </ion-col>
+    <ion-col size="11" class="pl-2">
+     <IonItem class="search-wraper positionrelative">
+       <ion-input type="text" value="" placeholder="Search"></ion-input>
+       <ion-icon name="search-outline"></ion-icon>
+     </IonItem>
+    </ion-col>
+  </ion-row>
+
+
+   <ion-row>
+      <ion-col>
+           <ion-card class="mx-1 my-2 pb-3 shadow-none alert-wraper">
+             <ion-row class="ion-align-items-center py-2">
+                <ion-col size="12" class="px-3">
+                   <h4 class="mb-1 d-flex align-items-center">
+                   
+                    <svg class="mr-2" width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.4286 3.23077H9.75857L7.94357 0.662313C7.79728 0.456517 7.60569 0.289227 7.38447 0.174117C7.16325 0.0590069 6.91866 -0.000655812 6.67071 5.43708e-06H1.57143C1.15466 5.43708e-06 0.754961 0.170197 0.460261 0.47314C0.165561 0.776084 0 1.18696 0 1.61539V19.3846C0 19.813 0.165561 20.2239 0.460261 20.5269C0.754961 20.8298 1.15466 21 1.57143 21H20.4286C20.8453 21 21.245 20.8298 21.5397 20.5269C21.8344 20.2239 22 19.813 22 19.3846V4.84616C22 4.41773 21.8344 4.00685 21.5397 3.70391C21.245 3.40097 20.8453 3.23077 20.4286 3.23077ZM20.4286 19.3846H1.57143V6.46154H7.315C7.73177 6.46154 8.13147 6.29135 8.42617 5.98841C8.72087 5.68546 8.88643 5.27458 8.88643 4.84616H1.57143V1.61539H6.67071L8.72143 4.515C8.79457 4.6179 8.89037 4.70155 9.00098 4.7591C9.11159 4.81666 9.23388 4.84649 9.35786 4.84616H20.4286V19.3846Z" fill="url(#paint0_linear)"/>
+                      <defs>
+                      <linearGradient id="paint0_linear" x1="11" y1="0" x2="11" y2="21" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#B90D36"/>
+                      <stop offset="1" stop-color="#B80D36"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                      
+                        
+                      <span>Direcroty</span>
+                      
+                    </h4>
+                 </ion-col>
+
+                 
+              </ion-row>
+             
+
+               <ion-row class="px-1 mt-1">
+                  
+                  <ion-col size="11">
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sri. Sampath Raj Gandhi </h5>
+                        <p class="mb-0 block-ellipsis-heading">Devgarh - Madariya - Rajsamand  </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block" [routerLink]="['/tabs/home/directory/user-profile']">Profile</ion-button>
+                      </div>
+                    </div>
+                    
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sri. Ashok Kumar Pitliya</h5>
+                        <p class="mb-0 block-ellipsis-heading">Mokhunda - Raipur  - Bhilwada </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">profile</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sri. Suresh Kumar Mandot</h5>
+                        <p class="mb-0 block-ellipsis-heading">Chitamba - Rajaji ka kareda - Bhilwa </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">profile</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sri. Vimal Kataria</h5>
+                        <p class="mb-0 block-ellipsis-heading">Bemali - Mandal - Bhilwara  </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">profile</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sri. Bhikamchand Munoth</h5>
+                        <p class="mb-0 block-ellipsis-heading">Sangawas - Devgarh  - Rajsamand </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">profile</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sri. Pukh Raj Mehta</h5>
+                        <p class="mb-0 block-ellipsis-heading">Devgarh-Devgarh  - Rajsamand</p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">profile</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sampath Raj Chawath </h5>
+                        <p class="mb-0 block-ellipsis-heading">Rajaji ka Kareda - Vijaynagar  - Beng </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block" >profile</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="pl-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Sampath Raj Mandot </h5>
+                        <p class="mb-0 block-ellipsis-heading">Bhim - Chandralayout  - Bengaluru </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">profile</ion-button>
+                      </div>
+                    </div>
+                  </ion-col>
+                  <ion-col size="1" class="ion-text-center">
+                     <p>a</p>
+                     <p>b</p>
+                     <p>c</p>
+                     <p>d</p>
+                     <p>e</p>
+                     <p>f</p>
+                     <p>g</p>
+                     <p>h</p>
+                     <p>i</p>
+                     <p>j</p>
+                     <p>k</p>
+                     <p>l</p>
+                     <p>m</p>
+                     <p>n</p>
+                     <p>o</p>
+                     <p>p</p>
+                     <p>q</p>
+                     <p>r</p>
+                     <p>s</p>
+                     <p>t</p>
+                     <p>u</p>
+                     <p>v</p>
+                     <p>w</p>
+                     <p>x</p>
+                     <p>y</p>
+                     <p>z</p>
+                    
+                  </ion-col>
+               </ion-row>
+
+           </ion-card>
+      </ion-col>
+   </ion-row>
+   
+ </ion-grid>
+</ion-content>
+
+

@@ -1,0 +1,66 @@
+ion-content {
+  --background: #FBFBFB;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #565656;
+}
+
+p {
+  color: #565656;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+}
+
+ion-button {
+  font-size: 10px;
+  width: 53px;
+  height: 30px;
+  line-height: 27px;
+  font-weight: 500;
+  --background: #178EFC;
+  border-radius: 32px;
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+  text-transform: capitalize;
+}
+
+ion-text {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.mahavir {
+  max-width: 50px;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.dir-h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #cf0030;
+}
+
+.dir-p {
+  color: #ACABAB;
+  font-weight: 600;
+  font-size: 16px;
+}
+/*# sourceMappingURL=page.page.css.map */

@@ -1,0 +1,265 @@
+
+ <ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+ <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+<ion-grid>
+    <ion-row class="mt-4 mb-2 align-items-center px-2">
+      <ion-col size="1">
+           <svg [routerLink]="['/tabs/home']" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+            </svg>
+      </ion-col>
+      <ion-col size="11" class="pl-2">
+       <IonItem class="search-wraper positionrelative">
+         <ion-input type="text" value="" placeholder="Search"></ion-input>
+         <ion-icon name="search-outline"></ion-icon>
+       </IonItem>
+      </ion-col>
+    </ion-row>
+
+
+   <ion-row>
+      <ion-col>
+           <ion-card class="mx-1 mb-4 pb-4 shadow-none alert-wraper">
+             <ion-row class="ion-align-items-center py-2">
+                <ion-col size="12" class="px-3">
+                   <h4 class="mb-1 d-flex align-items-center">
+                    <svg class="mr-2" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.125 10.3125C15.125 10.1302 15.1974 9.9553 15.3264 9.82636C15.4553 9.69743 15.6302 9.625 15.8125 9.625H17.1875C17.3698 9.625 17.5447 9.69743 17.6736 9.82636C17.8026 9.9553 17.875 10.1302 17.875 10.3125V11.6875C17.875 11.8698 17.8026 12.0447 17.6736 12.1736C17.5447 12.3026 17.3698 12.375 17.1875 12.375H15.8125C15.6302 12.375 15.4553 12.3026 15.3264 12.1736C15.1974 12.0447 15.125 11.8698 15.125 11.6875V10.3125Z" fill="url(#paint0_linear)"/>
+                      <path d="M4.8125 0C4.99484 0 5.1697 0.0724328 5.29864 0.201364C5.42757 0.330295 5.5 0.505164 5.5 0.6875V1.375H16.5V0.6875C16.5 0.505164 16.5724 0.330295 16.7014 0.201364C16.8303 0.0724328 17.0052 0 17.1875 0C17.3698 0 17.5447 0.0724328 17.6736 0.201364C17.8026 0.330295 17.875 0.505164 17.875 0.6875V1.375H19.25C19.9793 1.375 20.6788 1.66473 21.1945 2.18046C21.7103 2.69618 22 3.39565 22 4.125V19.25C22 19.9793 21.7103 20.6788 21.1945 21.1945C20.6788 21.7103 19.9793 22 19.25 22H2.75C2.02065 22 1.32118 21.7103 0.805456 21.1945C0.289731 20.6788 0 19.9793 0 19.25V4.125C0 3.39565 0.289731 2.69618 0.805456 2.18046C1.32118 1.66473 2.02065 1.375 2.75 1.375H4.125V0.6875C4.125 0.505164 4.19743 0.330295 4.32636 0.201364C4.4553 0.0724328 4.63016 0 4.8125 0V0ZM2.75 2.75C2.38533 2.75 2.03559 2.89487 1.77773 3.15273C1.51987 3.41059 1.375 3.76033 1.375 4.125V19.25C1.375 19.6147 1.51987 19.9644 1.77773 20.2223C2.03559 20.4801 2.38533 20.625 2.75 20.625H19.25C19.6147 20.625 19.9644 20.4801 20.2223 20.2223C20.4801 19.9644 20.625 19.6147 20.625 19.25V4.125C20.625 3.76033 20.4801 3.41059 20.2223 3.15273C19.9644 2.89487 19.6147 2.75 19.25 2.75H2.75Z" fill="url(#paint1_linear)"/>
+                      <path d="M3.4375 5.5C3.4375 5.31766 3.50993 5.1428 3.63886 5.01386C3.7678 4.88493 3.94266 4.8125 4.125 4.8125H17.875C18.0573 4.8125 18.2322 4.88493 18.3611 5.01386C18.4901 5.1428 18.5625 5.31766 18.5625 5.5V6.875C18.5625 7.05734 18.4901 7.2322 18.3611 7.36114C18.2322 7.49007 18.0573 7.5625 17.875 7.5625H4.125C3.94266 7.5625 3.7678 7.49007 3.63886 7.36114C3.50993 7.2322 3.4375 7.05734 3.4375 6.875V5.5Z" fill="url(#paint2_linear)"/>
+                      <defs>
+                      <linearGradient id="paint0_linear" x1="16.5" y1="9.625" x2="16.5" y2="12.375" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#B90D36"/>
+                      <stop offset="1" stop-color="#B80D36"/>
+                      </linearGradient>
+                      <linearGradient id="paint1_linear" x1="11" y1="0" x2="11" y2="22" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#B90D36"/>
+                      <stop offset="1" stop-color="#B80D36"/>
+                      </linearGradient>
+                      <linearGradient id="paint2_linear" x1="11" y1="4.8125" x2="11" y2="7.5625" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#B90D36"/>
+                      <stop offset="1" stop-color="#B80D36"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                      <span>Event</span>
+                      
+                    </h4>
+                 </ion-col>
+
+                 
+              </ion-row>
+               <ion-row>
+                <ion-col size="12" class="scrolling-wrapper d-flex flex-nowrap">
+                   <ion-card class="my-0 mx-2 p-2 card-event shadow-none">
+                      <ion-row>
+                        <ion-col size="7">
+                            <h5 class="mb-1 font-weight-bold text-white">Jain Ekta Munch</h5>
+                            <p class="text-white mb-5 mt-3">Mewad Premier League </p>
+                            <ion-text class="text-white d-block"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 0C2.243 0 0 2.243 0 5C0 7.757 2.243 10 5 10C7.757 10 10 7.757 10 5C10 2.243 7.757 0 5 0ZM5 9C2.7945 9 1 7.2055 1 5C1 2.7945 2.7945 1 5 1C7.2055 1 9 2.7945 9 5C9 7.2055 7.2055 9 5 9Z" fill="white"/>
+                              <path d="M5 3H4V6H7V5H5V3Z" fill="white"/>
+                              </svg>
+                              Dec 10 at 6:00 AM  </ion-text>
+                              <ion-text class="text-white d-block">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M5 0.625C4.08865 0.626075 3.21493 0.988585 2.57051 1.63301C1.92609 2.27743 1.56358 3.15115 1.5625 4.0625C1.56141 4.80726 1.80469 5.53181 2.255 6.125C2.255 6.125 2.34875 6.24844 2.36407 6.26625L5 9.375L7.63719 6.26469C7.65094 6.24813 7.745 6.125 7.745 6.125L7.74532 6.12406C8.19541 5.53113 8.43857 4.80692 8.4375 4.0625C8.43643 3.15115 8.07392 2.27743 7.4295 1.63301C6.78507 0.988585 5.91136 0.626075 5 0.625ZM5 5.3125C4.75278 5.3125 4.5111 5.23919 4.30554 5.10184C4.09998 4.96449 3.93976 4.76926 3.84515 4.54085C3.75054 4.31245 3.72579 4.06111 3.77402 3.81864C3.82225 3.57616 3.9413 3.35343 4.11612 3.17862C4.29094 3.0038 4.51366 2.88475 4.75614 2.83652C4.99862 2.78829 5.24995 2.81304 5.47836 2.90765C5.70677 3.00226 5.90199 3.16248 6.03934 3.36804C6.17669 3.5736 6.25 3.81527 6.25 4.0625C6.24959 4.39389 6.11776 4.7116 5.88343 4.94593C5.6491 5.18026 5.3314 5.31209 5 5.3125Z" fill="white"/>
+                                  </svg>
+                                  
+                                HMT Ground, HMT, Bengaluru</ion-text>
+                        </ion-col>
+                        <ion-col size="5" class="ion-text-right">
+                           <img class="img-fluid" src="../../../assets/new/event.png" />
+                        </ion-col>
+                      </ion-row>
+                   </ion-card>
+                   <ion-card class="my-0 mx-2 p-2 card-event shadow-none">
+                      <ion-row>
+                        <ion-col size="7">
+                            <h5 class="mb-1 font-weight-bold text-white">Jain Ekta Munch</h5>
+                            <p class="text-white mb-5 mt-3">Mewad Premier League </p>
+                            <ion-text class="text-white d-block"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 0C2.243 0 0 2.243 0 5C0 7.757 2.243 10 5 10C7.757 10 10 7.757 10 5C10 2.243 7.757 0 5 0ZM5 9C2.7945 9 1 7.2055 1 5C1 2.7945 2.7945 1 5 1C7.2055 1 9 2.7945 9 5C9 7.2055 7.2055 9 5 9Z" fill="white"/>
+                              <path d="M5 3H4V6H7V5H5V3Z" fill="white"/>
+                              </svg>
+                              Dec 10 at 6:00 AM  </ion-text>
+                              <ion-text class="text-white d-block">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M5 0.625C4.08865 0.626075 3.21493 0.988585 2.57051 1.63301C1.92609 2.27743 1.56358 3.15115 1.5625 4.0625C1.56141 4.80726 1.80469 5.53181 2.255 6.125C2.255 6.125 2.34875 6.24844 2.36407 6.26625L5 9.375L7.63719 6.26469C7.65094 6.24813 7.745 6.125 7.745 6.125L7.74532 6.12406C8.19541 5.53113 8.43857 4.80692 8.4375 4.0625C8.43643 3.15115 8.07392 2.27743 7.4295 1.63301C6.78507 0.988585 5.91136 0.626075 5 0.625ZM5 5.3125C4.75278 5.3125 4.5111 5.23919 4.30554 5.10184C4.09998 4.96449 3.93976 4.76926 3.84515 4.54085C3.75054 4.31245 3.72579 4.06111 3.77402 3.81864C3.82225 3.57616 3.9413 3.35343 4.11612 3.17862C4.29094 3.0038 4.51366 2.88475 4.75614 2.83652C4.99862 2.78829 5.24995 2.81304 5.47836 2.90765C5.70677 3.00226 5.90199 3.16248 6.03934 3.36804C6.17669 3.5736 6.25 3.81527 6.25 4.0625C6.24959 4.39389 6.11776 4.7116 5.88343 4.94593C5.6491 5.18026 5.3314 5.31209 5 5.3125Z" fill="white"/>
+                                  </svg>
+                                  
+                                HMT Ground, HMT, Bengaluru</ion-text>
+                        </ion-col>
+                        <ion-col size="5" class="ion-text-right">
+                          <img class="img-fluid" src="../../../assets/new/event.png" />
+                        </ion-col>
+                      </ion-row>
+                   </ion-card>
+                    <ion-card class="my-0 mx-2 p-2 card-event shadow-none">
+                    <ion-row>
+                      <ion-col size="7">
+                          <h5 class="mb-1 font-weight-bold text-white">Jain Ekta Munch</h5>
+                          <p class="text-white mb-5 mt-3">Mewad Premier League </p>
+                          <ion-text class="text-white d-block"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 0C2.243 0 0 2.243 0 5C0 7.757 2.243 10 5 10C7.757 10 10 7.757 10 5C10 2.243 7.757 0 5 0ZM5 9C2.7945 9 1 7.2055 1 5C1 2.7945 2.7945 1 5 1C7.2055 1 9 2.7945 9 5C9 7.2055 7.2055 9 5 9Z" fill="white"/>
+                            <path d="M5 3H4V6H7V5H5V3Z" fill="white"/>
+                            </svg>
+                            Dec 10 at 6:00 AM  </ion-text>
+                            <ion-text class="text-white d-block">
+                              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 0.625C4.08865 0.626075 3.21493 0.988585 2.57051 1.63301C1.92609 2.27743 1.56358 3.15115 1.5625 4.0625C1.56141 4.80726 1.80469 5.53181 2.255 6.125C2.255 6.125 2.34875 6.24844 2.36407 6.26625L5 9.375L7.63719 6.26469C7.65094 6.24813 7.745 6.125 7.745 6.125L7.74532 6.12406C8.19541 5.53113 8.43857 4.80692 8.4375 4.0625C8.43643 3.15115 8.07392 2.27743 7.4295 1.63301C6.78507 0.988585 5.91136 0.626075 5 0.625ZM5 5.3125C4.75278 5.3125 4.5111 5.23919 4.30554 5.10184C4.09998 4.96449 3.93976 4.76926 3.84515 4.54085C3.75054 4.31245 3.72579 4.06111 3.77402 3.81864C3.82225 3.57616 3.9413 3.35343 4.11612 3.17862C4.29094 3.0038 4.51366 2.88475 4.75614 2.83652C4.99862 2.78829 5.24995 2.81304 5.47836 2.90765C5.70677 3.00226 5.90199 3.16248 6.03934 3.36804C6.17669 3.5736 6.25 3.81527 6.25 4.0625C6.24959 4.39389 6.11776 4.7116 5.88343 4.94593C5.6491 5.18026 5.3314 5.31209 5 5.3125Z" fill="white"/>
+                                </svg>
+                                
+                              HMT Ground, HMT, Bengaluru</ion-text>
+                      </ion-col>
+                      <ion-col size="5" class="ion-text-right">
+                        <img class="img-fluid" src="../../../assets/new/event.png" />
+                      </ion-col>
+                    </ion-row>
+                    </ion-card>
+                </ion-col>
+               </ion-row>
+
+               
+               <ion-row class="px-2 mt-3">
+                  <ion-col>
+                      <h5>All Events for you </h5>
+                  </ion-col>
+               </ion-row>
+
+               <ion-row shape="round" class="rounded-1 mx-2 align-items-center bg-light px-2 mb-4">
+                <ion-col size="3" class="p-0">
+                 <div class="pl-2">
+                   <img class="img-fluid" src="../../../assets/new/event-thum.png" />
+                 </div>
+                </ion-col>
+                <ion-col size="9">
+                  <ion-row>
+              
+                    <ion-col size="9" class="pb-0">
+                      <h5 class="mb-0 font-weight-bold text-black pt-1">Vollyball Tournament </h5>
+                     <p class="mb-0 mt-1 block-ellipsis-heading">Rajasthani Mitra Mandal Vijaynagar </p>
+                    </ion-col>
+                    <ion-col size="3" class="align-self-center">
+                     <div class="ion-text-right">
+                       <ion-button shape="round" class="event-view-btn" expand="block">View All</ion-button>
+                   </div>
+                     </ion-col>
+                   <ion-col size="12" class="pt-0">
+                 
+                     <ion-text class="font-weight-normal d-flex align-items-center">
+                       <svg class="mr-1" width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M2.5 0C1.1215 0 0 1.1215 0 2.5C0 3.8785 1.1215 5 2.5 5C3.8785 5 5 3.8785 5 2.5C5 1.1215 3.8785 0 2.5 0ZM2.5 4.5C1.39725 4.5 0.5 3.60275 0.5 2.5C0.5 1.39725 1.39725 0.5 2.5 0.5C3.60275 0.5 4.5 1.39725 4.5 2.5C4.5 3.60275 3.60275 4.5 2.5 4.5Z" fill="#AEB0B2"/>
+                       <path d="M2.66667 1H2V3H4V2.33333H2.66667V1Z" fill="#AEB0B2"/>
+                       </svg>
+                       Dec 10 at 6:00 AM     
+                       <svg class="mx-1" width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M3 0.375C2.45319 0.375645 1.92896 0.593151 1.54231 0.979805C1.15565 1.36646 0.938147 1.89069 0.937502 2.4375C0.936847 2.88435 1.08281 3.31908 1.353 3.675C1.353 3.675 1.40925 3.74906 1.41844 3.75975L3 5.625L4.58231 3.75881C4.59056 3.74888 4.647 3.675 4.647 3.675L4.64719 3.67444C4.91725 3.31868 5.06314 2.88415 5.0625 2.4375C5.06186 1.89069 4.84435 1.36646 4.4577 0.979805C4.07104 0.593151 3.54681 0.375645 3 0.375ZM3 3.1875C2.85167 3.1875 2.70666 3.14351 2.58332 3.0611C2.45999 2.97869 2.36386 2.86156 2.30709 2.72451C2.25033 2.58747 2.23547 2.43667 2.26441 2.29118C2.29335 2.1457 2.36478 2.01206 2.46967 1.90717C2.57456 1.80228 2.7082 1.73085 2.85368 1.70191C2.99917 1.67297 3.14997 1.68782 3.28701 1.74459C3.42406 1.80136 3.54119 1.89749 3.6236 2.02082C3.70602 2.14416 3.75 2.28916 3.75 2.4375C3.74975 2.63634 3.67066 2.82696 3.53006 2.96756C3.38946 3.10815 3.19884 3.18725 3 3.1875Z" fill="#AEB0B2"/>
+                         </svg>
+                           HMT Ground, HMT, Bengaluru
+                     </ion-text>
+             </ion-col>
+                  </ion-row>
+                  
+               </ion-col>
+              
+              </ion-row>
+              <ion-row class="align-items-center mx-2 rounded-1 bg-light px-2 mb-4">
+                <ion-col size="3" class="p-0">
+                 <div class="pl-2">
+                   <img class="img-fluid" src="../../../assets/new/event-2.png" />
+                 </div>
+                </ion-col>
+                <ion-col size="9">
+                  <ion-row>
+      
+                    <ion-col size="9" class="pb-0">
+                      <h5 class="mb-0 font-weight-bold text-black pt-1">Jain Ekta Munch </h5>
+                     <p class="mb-0 mt-1 block-ellipsis-heading">Mewad Premier League</p>
+                    </ion-col>
+                    <ion-col size="3" class="align-self-center">
+                     <div class="ion-text-right">
+                       <ion-button shape="round" class="event-view-btn" expand="block">View All</ion-button>
+                   </div>
+                     </ion-col>
+                   <ion-col size="12" class="pt-0">
+                 
+                     <ion-text class="font-weight-normal d-flex align-items-center">
+                       <svg class="mr-1" width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M2.5 0C1.1215 0 0 1.1215 0 2.5C0 3.8785 1.1215 5 2.5 5C3.8785 5 5 3.8785 5 2.5C5 1.1215 3.8785 0 2.5 0ZM2.5 4.5C1.39725 4.5 0.5 3.60275 0.5 2.5C0.5 1.39725 1.39725 0.5 2.5 0.5C3.60275 0.5 4.5 1.39725 4.5 2.5C4.5 3.60275 3.60275 4.5 2.5 4.5Z" fill="#AEB0B2"/>
+                       <path d="M2.66667 1H2V3H4V2.33333H2.66667V1Z" fill="#AEB0B2"/>
+                       </svg>
+                       Dec 10 at 6:00 AM     
+                       <svg class="mx-1" width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M3 0.375C2.45319 0.375645 1.92896 0.593151 1.54231 0.979805C1.15565 1.36646 0.938147 1.89069 0.937502 2.4375C0.936847 2.88435 1.08281 3.31908 1.353 3.675C1.353 3.675 1.40925 3.74906 1.41844 3.75975L3 5.625L4.58231 3.75881C4.59056 3.74888 4.647 3.675 4.647 3.675L4.64719 3.67444C4.91725 3.31868 5.06314 2.88415 5.0625 2.4375C5.06186 1.89069 4.84435 1.36646 4.4577 0.979805C4.07104 0.593151 3.54681 0.375645 3 0.375ZM3 3.1875C2.85167 3.1875 2.70666 3.14351 2.58332 3.0611C2.45999 2.97869 2.36386 2.86156 2.30709 2.72451C2.25033 2.58747 2.23547 2.43667 2.26441 2.29118C2.29335 2.1457 2.36478 2.01206 2.46967 1.90717C2.57456 1.80228 2.7082 1.73085 2.85368 1.70191C2.99917 1.67297 3.14997 1.68782 3.28701 1.74459C3.42406 1.80136 3.54119 1.89749 3.6236 2.02082C3.70602 2.14416 3.75 2.28916 3.75 2.4375C3.74975 2.63634 3.67066 2.82696 3.53006 2.96756C3.38946 3.10815 3.19884 3.18725 3 3.1875Z" fill="#AEB0B2"/>
+                         </svg>
+                           HMT Ground, HMT, Bengaluru
+                     </ion-text>
+             </ion-col>
+                  </ion-row>
+                  
+               </ion-col>
+              
+              </ion-row>
+              <ion-row class="align-items-center mx-2 rounded-1 bg-light px-2">
+                <ion-col size="3" class="p-0">
+                 <div class="pl-2">
+                   <img class="img-fluid" src="../../../assets/new/event-3.png" />
+                 </div>
+                </ion-col>
+                <ion-col size="9">
+                  <ion-row>
+ 
+                    <ion-col size="9" class="pb-0">
+                      <h5 class="mb-0 font-weight-bold text-black pt-1">Cricket Organisation</h5>
+                     <p class="mb-0 mt-1 block-ellipsis-heading">Mewad Premier League dummy text more dummy text </p>
+                    </ion-col>
+                    <ion-col size="3" class="align-self-center">
+                     <div class="ion-text-right">
+                       <ion-button shape="round" class="event-view-btn" expand="block">View All</ion-button>
+                   </div>
+                     </ion-col>
+                   <ion-col size="12" class="pt-0">
+                 
+                     <ion-text class="font-weight-normal d-flex align-items-center">
+                       <svg class="mr-1" width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M2.5 0C1.1215 0 0 1.1215 0 2.5C0 3.8785 1.1215 5 2.5 5C3.8785 5 5 3.8785 5 2.5C5 1.1215 3.8785 0 2.5 0ZM2.5 4.5C1.39725 4.5 0.5 3.60275 0.5 2.5C0.5 1.39725 1.39725 0.5 2.5 0.5C3.60275 0.5 4.5 1.39725 4.5 2.5C4.5 3.60275 3.60275 4.5 2.5 4.5Z" fill="#AEB0B2"/>
+                       <path d="M2.66667 1H2V3H4V2.33333H2.66667V1Z" fill="#AEB0B2"/>
+                       </svg>
+                       Dec 10 at 6:00 AM     
+                       <svg class="mx-1" width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M3 0.375C2.45319 0.375645 1.92896 0.593151 1.54231 0.979805C1.15565 1.36646 0.938147 1.89069 0.937502 2.4375C0.936847 2.88435 1.08281 3.31908 1.353 3.675C1.353 3.675 1.40925 3.74906 1.41844 3.75975L3 5.625L4.58231 3.75881C4.59056 3.74888 4.647 3.675 4.647 3.675L4.64719 3.67444C4.91725 3.31868 5.06314 2.88415 5.0625 2.4375C5.06186 1.89069 4.84435 1.36646 4.4577 0.979805C4.07104 0.593151 3.54681 0.375645 3 0.375ZM3 3.1875C2.85167 3.1875 2.70666 3.14351 2.58332 3.0611C2.45999 2.97869 2.36386 2.86156 2.30709 2.72451C2.25033 2.58747 2.23547 2.43667 2.26441 2.29118C2.29335 2.1457 2.36478 2.01206 2.46967 1.90717C2.57456 1.80228 2.7082 1.73085 2.85368 1.70191C2.99917 1.67297 3.14997 1.68782 3.28701 1.74459C3.42406 1.80136 3.54119 1.89749 3.6236 2.02082C3.70602 2.14416 3.75 2.28916 3.75 2.4375C3.74975 2.63634 3.67066 2.82696 3.53006 2.96756C3.38946 3.10815 3.19884 3.18725 3 3.1875Z" fill="#AEB0B2"/>
+                         </svg>
+                           HMT Ground, HMT, Bengaluru
+                     </ion-text>
+             </ion-col>
+                  </ion-row>
+                  
+               </ion-col>
+              
+              </ion-row>
+
+           </ion-card>
+      </ion-col>
+   </ion-row>
+   
+ </ion-grid>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+

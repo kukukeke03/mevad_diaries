@@ -1,0 +1,59 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+  </ion-header>
+<ion-content>
+   
+  <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+   <ion-grid class="pt-0 px-0">
+   
+    <ion-row class="mt-4 align-items-center px-2">
+      <ion-col size="1">
+           <svg [routerLink]="['/tabs/home/news']" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+            </svg>
+      </ion-col>
+      <ion-col size="11" class="pl-2">
+       <IonItem class="search-wraper positionrelative">
+         <ion-input type="text" value="" placeholder="Search"></ion-input>
+         <ion-icon name="search-outline"></ion-icon>
+       </IonItem>
+      </ion-col>
+    </ion-row>
+   
+  
+     <ion-card class="coupon-container pb-3 shadow-none px-0">
+       <ion-row>
+           <ion-col size="12">
+            <img class="" width="100%" src="../../../../assets/new/news-view.png" />
+           </ion-col>
+       </ion-row>
+       <ion-row>
+        <ion-col size="12">
+           <h5>Stocks in news: Emami, Tata Motors, HDFC Bank, Nalco and more</h5>
+           <p>Sensex and Nifty are likely to open higher today. On Monday, benchmark indices closed lower amid negative trend in global markets. Sensex ended 189.45 points lower at 52,735 and Nifty settled 45.65 points down at 15,814.
+          </p>
+          <p>Here's a look at stocks that are likely to remain in news today.
+          </p>
+          <p>Tata Motors: The auto firm would accelerate its presence in electric vehicles with plans of having 10 battery electric vehicles in less than four years, Chairman N Chandrasekaran said.
+          </p>
+          <p>Emami: The FMCG major has bought over 12 percent additional stake in the Helios Lifestyle, known for its flagship male grooming brand The Man Company. The maker of BoroPlus and Zandu Balm, with this latest stake hike, now owns almost 45.96 percent equity in the grooming start-up.
+          </p>
+          <p>HDFC Life Insurance: Standard Life, the co-promoter of HDFC Life Insurance, will sell a 3.46% stake in the company, worth at least $621 million (Rs 4,606 crore) through a block deal on June 29.
+          </p>
+        </ion-col>
+    </ion-row>
+    <ion-row class="mb-1 mt-3">
+      <ion-col size="12" class="ion-text-center">
+         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C18.075 23 23 18.075 23 12C23 5.925 18.075 1 12 0.999999C5.925 0.999999 1 5.925 1 12C1 18.075 5.925 23 12 23ZM9.793 15.293C9.61084 15.4816 9.51005 15.7342 9.51233 15.9964C9.51461 16.2586 9.61977 16.5094 9.80518 16.6948C9.99059 16.8802 10.2414 16.9854 10.5036 16.9877C10.7658 16.99 11.0184 16.8892 11.207 16.707L15.207 12.707C15.3945 12.5195 15.4998 12.2652 15.4998 12C15.4998 11.7348 15.3945 11.4805 15.207 11.293L11.207 7.293C11.0184 7.11084 10.7658 7.01005 10.5036 7.01232C10.2414 7.0146 9.99059 7.11977 9.80518 7.30518C9.61978 7.49059 9.51461 7.7414 9.51233 8.0036C9.51005 8.26579 9.61084 8.5184 9.793 8.707L13.086 12L9.793 15.293Z" fill="black"/>
+         </svg>
+      </ion-col>
+  </ion-row>
+     </ion-card>
+     
+   
+   </ion-grid>
+</ion-content>

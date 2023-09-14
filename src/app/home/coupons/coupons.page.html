@@ -1,0 +1,87 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+  </ion-header>
+<ion-content>
+   
+  <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+   <ion-grid class="pt-0 px-0">
+    <ion-row class="mt-4 align-items-center px-2">
+      <ion-col size="1">
+           <svg [routerLink]="['/tabs/home']" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+            </svg>
+      </ion-col>
+      <ion-col size="11" class="pl-2">
+       <IonItem class="search-wraper positionrelative">
+         <ion-input type="text" value="" placeholder="Search"></ion-input>
+         <ion-icon name="search-outline"></ion-icon>
+       </IonItem>
+      </ion-col>
+    </ion-row>
+   
+     <ion-row class="mt-3 px-2">
+       <ion-col size="12" class="px-4">
+          <h5 class="mb-0 font-weight-bold"><svg class="mr-2" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 0C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V6C0.530433 6 1.03914 6.21071 1.41421 6.58579C1.78929 6.96086 2 7.46957 2 8C2 8.53043 1.78929 9.03914 1.41421 9.41421C1.03914 9.78929 0.530433 10 0 10V14C0 14.5304 0.210714 15.0391 0.585786 15.4142C0.960859 15.7893 1.46957 16 2 16H18C18.5304 16 19.0391 15.7893 19.4142 15.4142C19.7893 15.0391 20 14.5304 20 14V10C19.4696 10 18.9609 9.78929 18.5858 9.41421C18.2107 9.03914 18 8.53043 18 8C18 7.46957 18.2107 6.96086 18.5858 6.58579C18.9609 6.21071 19.4696 6 20 6V2C20 1.46957 19.7893 0.960859 19.4142 0.585786C19.0391 0.210714 18.5304 0 18 0H2ZM13.5 3L15 4.5L6.5 13L5 11.5L13.5 3ZM6.81 3.04C7.79 3.04 8.58 3.83 8.58 4.81C8.58 5.27943 8.39352 5.72964 8.06158 6.06158C7.72964 6.39352 7.27943 6.58 6.81 6.58C5.83 6.58 5.04 5.79 5.04 4.81C5.04 4.34057 5.22648 3.89036 5.55842 3.55842C5.89036 3.22648 6.34057 3.04 6.81 3.04ZM13.19 9.42C14.17 9.42 14.96 10.21 14.96 11.19C14.96 11.6594 14.7735 12.1096 14.4416 12.4416C14.1096 12.7735 13.6594 12.96 13.19 12.96C12.21 12.96 11.42 12.17 11.42 11.19C11.42 10.7206 11.6065 10.2704 11.9384 9.93842C12.2704 9.60648 12.7206 9.42 13.19 9.42Z" fill="black"/>
+            </svg>
+            Coupons</h5>
+       </ion-col>
+     </ion-row>
+  
+     <ion-card class="coupon-container pb-3 shadow-none">
+      <ion-row>
+        <ion-col size="12" class="px-0 pt-0">
+             <img class="" width="100%" src="../../../assets/new/coupenbanner.png" />
+        </ion-col>
+      </ion-row>
+      <ion-row class="px-2">
+        <ion-col size="12" cllass="px-2">
+           <ion-segment scrollable>
+             <ion-segment-button value="Fab Deals">
+               <ion-label>Fab Deals</ion-label>
+             </ion-segment-button>
+             <ion-segment-button value="Hotels">
+               <ion-label>Hotels</ion-label>
+             </ion-segment-button>
+             <ion-segment-button value="Hospital">
+               <ion-label>Hospital</ion-label>
+             </ion-segment-button>
+             <ion-segment-button value="Spa">
+               <ion-label>Spa</ion-label>
+             </ion-segment-button>
+             <ion-segment-button value="Salon">
+               <ion-label>Salon</ion-label>
+             </ion-segment-button>
+             <ion-segment-button value="NEWS">
+               <ion-label>NEWS</ion-label>
+             </ion-segment-button>
+           </ion-segment>
+        </ion-col>
+     </ion-row>
+     <ion-row class="mt-2 mx-0">
+      <ion-col size="12">
+        <ion-card class="my-0 mx-2 p-3 bg-light shadow-none">
+           <img  width="100%" src="../../../assets/new/c-banner.png" />
+           <h4 class="mt-3 mb-1 pl-3 font-weight-bold">PVR CINEMA</h4>
+           <p class="px-3">Blockbuster movie tickets</p>
+           <ion-button expand="block" shape="round" [routerLink]="['/tabs/home/coupons/details']">See Details</ion-button>
+         </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class="mt-2 mx-0">
+      <ion-col size="12">
+        <ion-card class="my-0 mx-2 p-3 bg-light shadow-none">
+           <img  width="100%" src="../../../assets/new/c-banner1.png" />
+           <h4 class="mt-3 mb-1 pl-3 font-weight-bold">PVR CINEMA</h4>
+           <p class="px-3">Blockbuster movie tickets</p>
+           <ion-button expand="block" shape="round" [routerLink]="['/tabs/home/coupons/details']">See Details</ion-button>
+         </ion-card>
+      </ion-col>
+    </ion-row>
+     </ion-card>
+   
+   </ion-grid>
+</ion-content>

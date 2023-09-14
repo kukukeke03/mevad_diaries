@@ -1,0 +1,49 @@
+ion-content {
+  --background: #FBFBFB;
+}
+
+.alert-wraper {
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.alert-wraper .boredr-blue {
+  border-left: 8px solid #168DFB;
+}
+
+.alert-wraper .boredr-red {
+  border-left: 8px solid #C92048;
+}
+
+.alert-wraper h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alert-wraper .card-container p {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.alert-wraper .card-container .bottom-text {
+  background: #E8E8E8;
+  bottom: 0px;
+  font-size: 9px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  padding-left: 10px;
+}
+
+.alert-wraper .bg-g {
+  background: #EFF2F7;
+  border-radius: 10px;
+}
+
+.mahavir {
+  max-width: 50px;
+}
+
+.logo {
+  max-width: 100px;
+}
+/*# sourceMappingURL=alert.page.css.map */

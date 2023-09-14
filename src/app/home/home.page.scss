@@ -1,0 +1,84 @@
+ion-content {
+  --background: #ededed;
+}
+
+
+.category{
+  overflow-x: scroll;
+  .category-item{
+    background: linear-gradient(180deg, #F52D54 0%, #B70B34 100%);
+    border-radius: 33.5px;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  span{
+    font-size: 10px;
+    color: #000000;
+  }
+}
+
+h2{
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+ul li{
+  list-style: none;
+  font-size: 12px;
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    background: #646464;
+    width: 7px;
+    height: 3px;
+    left: -18px;
+    top: 8px;
+  }
+}
+
+.diractoy{
+  span{
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+  }
+  .circle{
+    width: 42px;
+    height: 33px;
+    border: 1px solid #E0DFDF;
+  }
+}
+.story{
+  h3{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #C41A43;
+    font-weight: bold;
+  }
+  p{
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+.logo{
+  max-width: 100px;
+}
+.mahavir{
+  max-width: 50px;
+}
+
+ion-card{
+  min-height: 114px;
+  border-radius: 12px;
+}
+
+
+.swiper-slide img {
+  width: 100%;
+}

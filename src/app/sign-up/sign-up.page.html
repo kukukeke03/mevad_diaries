@@ -1,0 +1,136 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+  
+  
+  
+<ion-content>
+  <ion-fab vertical="top" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerLink]="['/start']">
+      <ion-icon name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+   <!-- <ion-button [routerLink]="['/welcome']">Welcome page</ion-button> -->
+  
+      
+    <!-- <ion-row  class="mt-5 pt-5">
+      <ion-col size="12">
+        <div class="mb-4">
+          <ion-button class="sign-up" [routerLink]="['/sign-up']" shape="round" expand="block" fill="outline">Sign Up</ion-button>
+        </div>
+        <div>
+          <ion-button class="login-btn" [routerLink]="['/login']" shape="round" expand="block">Login</ion-button>
+        </div>
+      </ion-col>
+    </ion-row> -->
+
+   
+      
+    
+    
+     <!-- <ion-button [routerLink]="['/welcome']">Welcome page</ion-button> -->
+     <ion-grid>
+      <ion-row class="mt-4">
+        <ion-col class="ion-text-center">
+            <img class="rounded-circle img-fluid mahavir" src="../../assets/new/Logo.png" />
+            <h1 class="mb-1">Join <span>Mewad</span> Diaries</h1>
+            <h5>Whole community in one app</h5>
+        </ion-col>
+      </ion-row>
+     
+      <ion-row class="px-2 pt-3 bg-white login-container">
+      
+       <ion-col size="12" class="pt-4">
+        
+       
+        <div class="mb-3">
+          <ion-input placeholder="Name"></ion-input>
+       </div>
+       <div class="mb-3">
+        <ion-input placeholder="Email / Phone Number"></ion-input>
+       </div>
+         <div class="mb-4">
+           <ion-input placeholder="Password"></ion-input>
+        </div>
+         <!-- <div class="mb-4 ion-text-right">
+           <p class="text-white" [routerLink]="['/forgot-password']">Forgot Password?</p>
+         </div> -->
+        <div>
+          <ion-button expand="block" shape="round"  [routerLink]="['/welcome']">Sign Up</ion-button>
+        </div>
+        <ion-row class="mt-4">
+            <ion-col size="6" class="ion-text-center">
+              <svg width="33" height="21" viewBox="0 0 33 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.0482 8.99588C20.1467 9.52591 20.217 10.0559 20.217 10.7435C20.217 16.7456 16.2636 21 10.3125 21C4.61463 21 0 16.3015 0 10.5C0 4.69848 4.61463 0 10.3125 0C13.0982 0 15.4195 1.03135 17.2203 2.75034L14.4206 5.48636C13.6608 4.74146 12.3243 3.86766 10.3125 3.86766C6.79529 3.86766 3.92519 6.83288 3.92519 10.5C3.92519 14.1671 6.79529 17.1323 10.3125 17.1323C14.3924 17.1323 15.926 14.1385 16.1651 12.6057H10.3125V8.99582H20.0482V8.99588ZM30.0065 9.3479V6.3H26.9987V9.3479H24.0052V12.4105H26.9987V15.4584H30.0065V12.4105H33V9.3479H30.0065Z" fill="#F52D54"/>
+                </svg>
+                <span class="ml-3">Google</span>
+            </ion-col>
+            <ion-col size="6" class="ion-text-center bdr">
+              <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.79563 22V11.9811H11.3496L11.8779 8.05836H7.79563V5.55975C7.79563 4.42779 8.12725 3.65278 9.83548 3.65278H12V0.155454C10.9468 0.0481145 9.88824 -0.00371372 8.82905 0.000206791C5.68766 0.000206791 3.53085 1.82405 3.53085 5.17224V8.05103H0V11.9738H3.53856V22H7.79563Z" fill="#F52D54"/>
+                </svg>
+                <span class="ml-3">Facebook</span>
+            </ion-col>
+        </ion-row>
+        <div class="ion-text-center mt-3 mb-2">
+          <ion-text class="text-dark">
+            Have an account?  <a class="yellow" href="#"  [routerLink]="['/login']">LOGIN</a> here.
+           </ion-text>
+        </div>
+    </ion-col>
+          
+          
+      </ion-row>
+        
+    </ion-grid>
+   
+   
+   
+     <!-- <ion-grid>
+      <ion-row class="mt-3">
+        <ion-col class="ion-text-center">
+        
+            <img class="rounded-circle img-fluid mahavir" src="../../assets/images/m-logo.png" />
+      
+        </ion-col>
+      </ion-row>
+     
+      <ion-row class="mx-3 px-2">
+      
+       <ion-col size="12">
+         <div class="mb-4">
+             <h1 class="font-weight-bold text-white">Welcome to Sign Up</h1> 
+         </div>
+       
+        <div class="mb-4">
+          <ion-input placeholder="Name"></ion-input>
+       </div>
+       <div class="mb-4">
+        <ion-input placeholder="Email/ Mobile Number"></ion-input>
+     </div>
+         <div class="mb-4">
+           <ion-input placeholder="Password"></ion-input>
+        </div>
+        <div>
+          <ion-button expand="block"  [routerLink]="['/welcome']">Sign Up</ion-button>
+        </div>
+        <div class="ion-text-center mt-4">
+          <ion-text class="text-light">
+            Already have an account? <a class="yellow" href="#" [routerLink]="['/login']">Sign In</a>.
+           </ion-text>
+        </div>
+    </ion-col>
+          
+          
+      </ion-row>
+        
+    </ion-grid> -->
+ 
+  
+
+ 
+</ion-content>

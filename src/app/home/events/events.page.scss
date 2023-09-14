@@ -1,0 +1,66 @@
+
+ion-content {
+  --background: #ededed;
+}
+.card-event{
+  background: #3E2FCF;
+}
+.bg-light{
+  background-color: #EFF2F7 !important;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  ion-card{
+    min-width: calc(100% - 50px);
+  }
+}
+.list {
+  border-radius: 10px;
+  p{
+    color:#888888;
+  }
+  ion-text{
+    color:#888888;
+    font-size: 6px;
+  }
+}
+h4{
+  font-size: 16px;
+  font-weight: bold;
+  // line-height: 2px;
+}
+h5{
+  font-size: 15px;
+  font-weight: bold;
+  // line-height: 2px;
+}
+p{
+  font-size: 12px; 
+  // line-height: 9px;
+}
+ion-button{
+  font-size: 10px;
+  width: 59px;
+    height: 30px;
+  line-height: 27px;
+  font-weight: 500;
+  --background: #178EFC;
+  border-radius: 32px;
+  color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+  text-transform: capitalize;
+}
+ion-text{
+  font-size:8px;
+  font-weight: bold;
+}
+.mahavir{
+  max-width: 50px;
+}
+.logo{
+  max-width: 100px;
+}
+.rounded-1{
+  border-radius: 10px;
+}

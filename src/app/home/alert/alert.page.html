@@ -1,0 +1,86 @@
+
+ <ion-header class="ion-no-border">
+   <ion-toolbar>
+       <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+       <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+   </ion-toolbar>
+ </ion-header>
+<ion-content>
+  <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+ <ion-grid>
+   <ion-row class="align-items-center px-2 mt-4 mb-2">
+      <ion-col size="1">
+           <svg [routerLink]="['/tabs/home']" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+            </svg>
+      </ion-col>
+      <ion-col size="11" class="pl-2">
+       <IonItem class="search-wraper positionrelative">
+         <ion-input type="text" value="" placeholder="Search"></ion-input>
+         <ion-icon name="search-outline"></ion-icon>
+       </IonItem>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+       <ion-col>
+            <ion-card class="mx-1 my-2 px-2 pb-3 shadow-none alert-wraper mb-4">
+              <ion-row class="ion-align-items-center py-2">
+                 <ion-col size="12">
+                    <h5 class="mb-1">
+                     <svg class="mr-2" width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 22.8584C10.7578 22.8584 11.4845 22.5574 12.0203 22.0216C12.5561 21.4857 12.8571 20.759 12.8571 20.0012H7.14286C7.14286 20.759 7.44388 21.4857 7.97969 22.0216C8.51551 22.5574 9.24224 22.8584 10 22.8584ZM10 2.74125L8.86143 2.97125C7.56994 3.23439 6.40904 3.93568 5.57522 4.95642C4.74139 5.97717 4.28586 7.25466 4.28571 8.57268C4.28571 9.46982 4.09429 11.7112 3.63 13.9184C3.40143 15.0141 3.09286 16.1555 2.68286 17.1441H17.3171C16.9071 16.1555 16.6 15.0155 16.37 13.9184C15.9057 11.7112 15.7143 9.46982 15.7143 8.57268C15.7138 7.2549 15.2581 5.97775 14.4243 4.9573C13.5905 3.93685 12.4298 3.23577 11.1386 2.97268L10 2.73982V2.74125ZM18.8857 17.1441C19.1304 17.6345 18.7167 18.5727 18.1687 18.5727H1.83133C1.28326 18.5727 0.869622 17.6345 1.11429 17.1441C2.4 14.5727 2.85714 9.82982 2.85714 8.57268C2.85714 5.11553 5.31429 2.22982 8.57857 1.57125C8.55863 1.37261 8.58055 1.172 8.64291 0.982354C8.70526 0.792707 8.80667 0.618235 8.9406 0.47019C9.07453 0.322145 9.238 0.203814 9.42048 0.122828C9.60295 0.0418421 9.80036 0 10 0C10.1996 0 10.3971 0.0418421 10.5795 0.122828C10.762 0.203814 10.9255 0.322145 11.0594 0.47019C11.1933 0.618235 11.2947 0.792707 11.3571 0.982354C11.4195 1.172 11.4414 1.37261 11.4214 1.57125C13.0361 1.89968 14.4877 2.77605 15.5303 4.05197C16.573 5.32788 17.1426 6.92493 17.1429 8.57268C17.1429 9.82982 17.6 14.5727 18.8857 17.1441Z" fill="#C01737"/>
+                        </svg>
+                       Alerts
+                     </h5>
+                  </ion-col>
+
+                  
+               </ion-row>
+
+               <ion-row class="card-container mb-4 boredr-blue ion-align-items-center py-2 bg-g position-relative">
+                  <ion-col size="12" class="pl-2">
+                     <h5 class="mb-1">Dukhad Awsan</h5>
+                     <p>Bhawarlal Chandmal Suresh Mandot (Lasani) ke Bhai Mishrilal ji (Age-70) ka Dukhad Awsan.</p>
+                   </ion-col>
+                   <div class="bottom-text position-absolute">
+                      <span>Antimyatra today (24-7) 3:30PM | Nilkanth Residency Amroli to AK Road </span>
+                   </div>
+                   
+                </ion-row>
+                <ion-row class="card-container mb-4 boredr-blue ion-align-items-center py-2 bg-g position-relative">
+                  <ion-col size="12" class="pl-2">
+                     <h5 class="mb-1">Dukhad Awsan</h5>
+                     <p>Babulal Satish Vijay Ramesh Gandhi (Lawa Sardargarh) ke Mataji Mangibai (Age-83) ka Dukhad Awsan. </p>
+                   </ion-col>
+                   <div class="bottom-text position-absolute">
+                      <span>Antimyatra today (22-7) 8:00AM | From Ratnagiri Nivasthan </span>
+                   </div>
+                   
+                </ion-row>
+                <ion-row class="card-container mb-4 boredr-red ion-align-items-center py-2 bg-g position-relative">
+                  <ion-col size="12" class="pl-2">
+                     <h5 class="mb-1">Sanyukt Shoksabha </h5>
+                     <p>Swa. Babulalji Mehta ki Shoksabha  Mehta Pariwar - Baghana, Chawat Pariwar - Todgarh (Tal) </p>
+                   </ion-col>
+                   <div class="bottom-text position-absolute">
+                      <span>tomorrow (15-7) 2:00 -4:00 PM  |  Mahaveer Sanskar Dham  </span>
+                   </div>
+                   
+                </ion-row>
+                <ion-row class="card-container boredr-blue ion-align-items-center py-2 bg-g position-relative">
+                    <ion-col size="12" class="pl-2">
+                     <h5 class="mb-1">Dukhad Awsan</h5>
+                     <p>Dharmchand Derasriya (Deogarh) ke bhai Ladulalji (Age-72) ka Dukhad Awsan. </p>
+                   </ion-col>
+                   <div class="bottom-text position-absolute">
+                      <span>Antimyatra tomorrow (04-7) 12:15PM.  | Nivas Pipeline road Vijaynagar  </span>
+                   </div>
+                   
+                </ion-row>
+            </ion-card>
+       </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

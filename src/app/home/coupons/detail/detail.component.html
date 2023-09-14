@@ -1,0 +1,75 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+  </ion-header>
+<ion-content>
+   
+  <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+   <ion-grid class="pt-0 px-0">
+    <ion-row class="mt-4 align-items-center px-2">
+      <ion-col size="1">
+           <svg (click)="go_to_url('/tabs/home')" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+            </svg>
+      </ion-col>
+      <ion-col size="11" class="pl-2">
+       <IonItem class="search-wraper positionrelative">
+         <ion-input type="text" value="" placeholder="Search"></ion-input>
+         <ion-icon name="search-outline"></ion-icon>
+       </IonItem>
+      </ion-col>
+    </ion-row>
+   
+     <ion-row class="mt-3 px-2">
+       <ion-col size="12" class="px-4">
+          <h5 class="mb-0 font-weight-bold"><svg class="mr-2" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 0C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V6C0.530433 6 1.03914 6.21071 1.41421 6.58579C1.78929 6.96086 2 7.46957 2 8C2 8.53043 1.78929 9.03914 1.41421 9.41421C1.03914 9.78929 0.530433 10 0 10V14C0 14.5304 0.210714 15.0391 0.585786 15.4142C0.960859 15.7893 1.46957 16 2 16H18C18.5304 16 19.0391 15.7893 19.4142 15.4142C19.7893 15.0391 20 14.5304 20 14V10C19.4696 10 18.9609 9.78929 18.5858 9.41421C18.2107 9.03914 18 8.53043 18 8C18 7.46957 18.2107 6.96086 18.5858 6.58579C18.9609 6.21071 19.4696 6 20 6V2C20 1.46957 19.7893 0.960859 19.4142 0.585786C19.0391 0.210714 18.5304 0 18 0H2ZM13.5 3L15 4.5L6.5 13L5 11.5L13.5 3ZM6.81 3.04C7.79 3.04 8.58 3.83 8.58 4.81C8.58 5.27943 8.39352 5.72964 8.06158 6.06158C7.72964 6.39352 7.27943 6.58 6.81 6.58C5.83 6.58 5.04 5.79 5.04 4.81C5.04 4.34057 5.22648 3.89036 5.55842 3.55842C5.89036 3.22648 6.34057 3.04 6.81 3.04ZM13.19 9.42C14.17 9.42 14.96 10.21 14.96 11.19C14.96 11.6594 14.7735 12.1096 14.4416 12.4416C14.1096 12.7735 13.6594 12.96 13.19 12.96C12.21 12.96 11.42 12.17 11.42 11.19C11.42 10.7206 11.6065 10.2704 11.9384 9.93842C12.2704 9.60648 12.7206 9.42 13.19 9.42Z" fill="black"/>
+            </svg>
+            Coupons</h5>
+       </ion-col>
+     </ion-row>
+  
+     <ion-card class="coupon-container mt-3 py-2 px-2 shadow-none">
+      
+     <ion-row class="mx-0">
+      <ion-col size="12" class="px-0">
+        <ion-card class="my-0 mx-2 p-3 bg-light shadow-none">
+           <img width="100%" src="../../../assets/new/detail-banner.png" />
+            <ion-row class="mt-3">
+                <ion-col size="10" class="pl-0">
+                  <h4 class="font-weight-bold">PVR CINEMA</h4>
+                  <h5>Blockbuster movie tickets</h5>
+                </ion-col>
+                <ion-col size="2" class="text-right">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 0C6.26801 0 0 6.26801 0 14C0 21.732 6.26801 28 14 28C21.732 28 28 21.732 28 14C28 6.26801 21.732 0 14 0ZM17.0984 8.01507C18.762 7.98908 20.2664 8.89348 20.9796 10.4353C21.6393 12.4736 21.0872 14.5472 19.9237 16.1099C19.1558 17.1697 18.238 18.0836 17.2996 18.8821C16.4364 19.6857 14.5041 21.2759 13.992 21.32C13.5394 21.2335 13.0313 20.7209 12.672 20.4575C10.6529 18.9226 8.47975 17.0568 7.37767 15.016C6.45365 13.0567 6.45197 10.6325 7.89007 9.13033C9.7548 7.44921 12.5658 7.77826 13.992 9.53458C14.375 9.0377 14.8461 8.64638 15.4051 8.36169C15.9716 8.13559 16.5439 8.02375 17.0984 8.01507Z" fill="#F52D54"/>
+                    </svg>
+                </ion-col>
+            </ion-row>
+           <div>
+              <p class="mb-0">PVR Kotak Credit Card</p>
+              <p class="mb-0">Offer Details</p>
+              <p class="mb-0">PVR Kotak Credit Card - Get 2 FREE PVR Movie Tickets
+              </p>
+           </div>
+           <p class="mt-2 mb-4">Feature details</p>
+           <ion-button expand="block" shape="round" [routerLink]="['/tabs/home/coupons/details']">Redeem Coupon</ion-button>
+         </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class="mx-0">
+        <ion-col></ion-col>
+    </ion-row>
+    
+     </ion-card>
+     <ion-row class="mb-4">
+      <ion-col size="12" class="ion-text-center">
+         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C18.075 23 23 18.075 23 12C23 5.925 18.075 1 12 0.999999C5.925 0.999999 1 5.925 1 12C1 18.075 5.925 23 12 23ZM9.793 15.293C9.61084 15.4816 9.51005 15.7342 9.51233 15.9964C9.51461 16.2586 9.61977 16.5094 9.80518 16.6948C9.99059 16.8802 10.2414 16.9854 10.5036 16.9877C10.7658 16.99 11.0184 16.8892 11.207 16.707L15.207 12.707C15.3945 12.5195 15.4998 12.2652 15.4998 12C15.4998 11.7348 15.3945 11.4805 15.207 11.293L11.207 7.293C11.0184 7.11084 10.7658 7.01005 10.5036 7.01232C10.2414 7.0146 9.99059 7.11977 9.80518 7.30518C9.61978 7.49059 9.51461 7.7414 9.51233 8.0036C9.51005 8.26579 9.61084 8.5184 9.793 8.707L13.086 12L9.793 15.293Z" fill="black"/>
+         </svg>
+      </ion-col>
+  </ion-row>
+   </ion-grid>
+</ion-content>

@@ -1,0 +1,22 @@
+ion-content {
+  --background: #FBFBFB;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 13px;
+}
+
+.mahavir {
+  max-width: 50px;
+}
+
+.logo {
+  max-width: 100px;
+}
+/*# sourceMappingURL=start.page.css.map */

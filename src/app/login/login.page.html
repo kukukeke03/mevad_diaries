@@ -1,0 +1,50 @@
+
+<ion-content>
+  <ion-fab vertical="top" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerLink]="['/start']">
+      <ion-icon name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+ 
+   <!-- <ion-button [routerLink]="['/welcome']">Welcome page</ion-button> -->
+  <ion-grid>
+    <ion-row class="mt-4">
+      <ion-col class="ion-text-center">
+          <img class="rounded-circle img-fluid mahavir" src="../../assets/new/Logo.png" />
+          <h1 class="mb-1">Join <span>Mewad</span> Diaries</h1>
+          <h5>Whole community in one app</h5>
+      </ion-col>
+    </ion-row>
+   
+    <ion-row class="px-2 pt-3 bg-white login-container">
+    
+     <ion-col size="12" class="pt-4">
+      
+     
+      <div class="mb-4">
+        <ion-input placeholder="Name"></ion-input>
+     </div>
+       <div class="mb-3">
+         <ion-input placeholder="Password"></ion-input>
+      </div>
+       <!-- <div class="mb-4 ion-text-right">
+         <p class="text-white" [routerLink]="['/forgot-password']">Forgot Password?</p>
+       </div> -->
+      <div class="pt-3">
+        <ion-button expand="block"  [routerLink]="['/welcome']">Sign In</ion-button>
+      </div>
+      <div class="ion-text-center mt-3 mb-2">
+        <ion-text class="text-dark">
+          Haven’t an account?  <a class="yellow" href="#" [routerLink]="['/sign-up']">SIGNUP</a> here.
+         </ion-text>
+      </div>
+  </ion-col>
+        
+        
+    </ion-row>
+      
+  </ion-grid>
+  
+
+ 
+</ion-content>

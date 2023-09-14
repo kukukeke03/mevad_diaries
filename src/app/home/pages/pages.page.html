@@ -1,0 +1,183 @@
+
+ <ion-header class="ion-no-border">
+  <ion-toolbar>
+      <img class="rounded-circle logo" src="../../assets/images/Logo-home.png" />
+      <img class="rounded-circle mahavir mr-2" slot="end" src="../../assets/images/profile-pic.png" />
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+ <!-- <ion-button  [routerLink]="['/tabs/home']">back</ion-button> -->
+<ion-grid>
+  <ion-row class="mt-4 align-items-center px-2">
+    <ion-col size="1">
+         <svg [routerLink]="['/tabs/home']" width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M13.75 0.25C6.15625 0.25 0 6.40625 0 14C0 21.5937 6.15625 27.75 13.75 27.75C21.3437 27.75 27.5 21.5937 27.5 14C27.5 6.40625 21.3437 0.25 13.75 0.25ZM16.5087 9.88375C16.7364 9.648 16.8624 9.33224 16.8596 9.0045C16.8567 8.67675 16.7253 8.36324 16.4935 8.13148C16.2618 7.89972 15.9482 7.76825 15.6205 7.76541C15.2928 7.76256 14.977 7.88855 14.7412 8.11625L9.74125 13.1162C9.50691 13.3507 9.37527 13.6685 9.37527 14C9.37527 14.3315 9.50691 14.6493 9.74125 14.8837L14.7412 19.8837C14.977 20.1114 15.2928 20.2374 15.6205 20.2346C15.9482 20.2317 16.2618 20.1003 16.4935 19.8685C16.7253 19.6368 16.8567 19.3232 16.8596 18.9955C16.8624 18.6678 16.7364 18.352 16.5087 18.1162L12.3925 14L16.5087 9.88375Z" fill="#ACABAB"/>
+          </svg>
+    </ion-col>
+    <ion-col size="11" class="pl-2">
+     <IonItem class="search-wraper positionrelative">
+       <ion-input type="text" value="" placeholder="Search"></ion-input>
+       <ion-icon name="search-outline"></ion-icon>
+     </IonItem>
+    </ion-col>
+  </ion-row>
+
+
+   <ion-row>
+      <ion-col>
+           <ion-card class="mx-1 my-4 pb-3 shadow-none alert-wraper">
+             <ion-row class="ion-align-items-center py-2">
+                <ion-col size="12" class="px-3">
+                   <h4 class="mb-1 d-flex align-items-center">
+                   
+                      <svg class="mr-2" width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.25 6.9H4.75V4.6H14.25V6.9ZM14.25 9.2H4.75V11.5H14.25V9.2ZM19 2.3V16.1L11.875 23H2.375C1.74511 23 1.14102 22.7577 0.695621 22.3263C0.250222 21.895 0 21.31 0 20.7V2.3C0 1.69 0.250222 1.10499 0.695621 0.673654C1.14102 0.242321 1.74511 0 2.375 0H16.625C17.2549 0 17.859 0.242321 18.3044 0.673654C18.7498 1.10499 19 1.69 19 2.3ZM16.625 13.8V2.3H2.375V20.7H9.5V16.1C9.5 15.49 9.75022 14.905 10.1956 14.4737C10.641 14.0423 11.2451 13.8 11.875 13.8H16.625Z" fill="url(#paint0_linear)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear" x1="9.5" y1="0" x2="9.5" y2="23" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#B90D36"/>
+                        <stop offset="1" stop-color="#B80D36"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                        
+                      <span>Pages</span>
+                      
+                    </h4>
+                 </ion-col>
+
+                 
+              </ion-row>
+             
+
+               <ion-row class="px-1 mt-1">
+                  
+                  <ion-col size="12">
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Vaishnodevi Lush Greens Pvt.  </h5>
+                        <p class="mb-0 block-ellipsis">No. 13, Muthachari industrial estate, Mysore Road, Nayandhalli,
+                        </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block" [routerLink]="['/tabs/home/pages/page']">View</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Hansum India Electronics Pvt.</h5>
+                        <p class="mb-0 block-ellipsis">#5/12-5, 4th cross, R.P.C Layout, Vijaynagar, Bengaluru 560040
+                          </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">View</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Bheru Garments</h5>
+                        <p class="mb-0 block-ellipsis">No.91, 3rd floor, Doulat market, Sultanpet, Bangalore 560053
+
+                          </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">View</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">S.K Jewellers </h5>
+                        <p class="mb-0 block-ellipsis">#107, 2nd floor, MJR House, C.T street, Bangalore 560002
+                         </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">View</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Aryen Marketing </h5>
+                        <p class="mb-0 block-ellipsis">No.8 & 9, 11th A cross, 4th main road, S.R Nagar, Bangalore 560027
+
+                          </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">View</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Gandhi Jewellers & Bankers </h5>
+                        <p class="mb-0">No. 134, Magadi Main Road, Bangalore 560023
+
+                         </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">View</ion-button>
+                      </div>
+                    </div>
+                    <div class="pr-2 py-2 mb-4 bg-light list rounded-pill d-flex justify-content-between align-items-center">
+                      <div class="ml-2">
+                        <ion-avatar>
+                          <img class="img-fluid" src="../../../assets/new/place-image.png" />
+                        </ion-avatar>
+                      </div>
+                      <div class="px-2">
+                        <h5 class="mb-0 font-weight-bold text-black block-ellipsis-heading">Navrang Diamonds</h5>
+                        <p class="mb-0 block-ellipsis block-ellipsis">#2, B.T Street, Anchepet, North park road, Bangalore 560053
+                         </p>
+                      </div>
+                      <div class="ion-text-right">
+                          <ion-button shape="round" expand="block">View</ion-button>
+                      </div>
+                    </div>
+                  </ion-col>
+               </ion-row>
+
+           </ion-card>
+      </ion-col>
+   </ion-row>
+   
+ </ion-grid>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
